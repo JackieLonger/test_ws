@@ -1,0 +1,25 @@
+[0.091s] Invoking command in '/home/jackiepi4/test_ws/build/cpp_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jackiepi4/test_ws/build/cpp_subscriber -- -j4 -l4
+[0.535s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[51.672s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[55.108s] [100%] Built target subscriber
+[55.407s] Invoked command in '/home/jackiepi4/test_ws/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jackiepi4/test_ws/build/cpp_subscriber -- -j4 -l4
+[55.621s] Invoking command in '/home/jackiepi4/test_ws/build/cpp_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jackiepi4/test_ws/build/cpp_subscriber
+[55.681s] -- Install configuration: ""
+[55.703s] -- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/lib/cpp_subscriber/subscriber
+[55.741s] -- Set runtime path of "/home/jackiepi4/test_ws/install/cpp_subscriber/lib/cpp_subscriber/subscriber" to ""
+[55.742s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/ament_index/resource_index/package_run_dependencies/cpp_subscriber
+[55.744s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/ament_index/resource_index/parent_prefix_path/cpp_subscriber
+[55.765s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/ament_prefix_path.sh
+[55.767s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/ament_prefix_path.dsv
+[55.768s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/path.sh
+[55.770s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/path.dsv
+[55.771s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.bash
+[55.772s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.sh
+[55.773s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.zsh
+[55.774s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.dsv
+[55.775s] -- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/package.dsv
+[55.779s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/ament_index/resource_index/packages/cpp_subscriber
+[55.782s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/cmake/cpp_subscriberConfig.cmake
+[55.783s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/cmake/cpp_subscriberConfig-version.cmake
+[55.784s] -- Up-to-date: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/package.xml
+[55.790s] Invoked command in '/home/jackiepi4/test_ws/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jackiepi4/test_ws/build/cpp_subscriber

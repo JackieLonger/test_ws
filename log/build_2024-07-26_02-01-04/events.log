@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001267] (cpp_subscriber) JobQueued: {'identifier': 'cpp_subscriber', 'dependencies': OrderedDict()}
+[0.002407] (cpp_subscriber) JobStarted: {'identifier': 'cpp_subscriber'}
+[0.061068] (cpp_subscriber) JobProgress: {'identifier': 'cpp_subscriber', 'progress': 'cmake'}
+[0.062590] (cpp_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/jackiepi4/test_ws/src/cpp_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/jackiepi4/test_ws/install/cpp_subscriber'], 'cwd': '/home/jackiepi4/test_ws/build/cpp_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'jackiepi4'), ('SSH_CLIENT', '192.168.51.216 35242 22'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jackiepi4'), ('OLDPWD', '/home/jackiepi4/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8f4a2073-ab40-4e83-9d7f-a7dc34efdce2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jackiepi4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '439'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_TW.UTF-8'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca10102971.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jackiepi4/test_ws/build/cpp_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.51.216 35242 192.168.51.169 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099179] (-) TimerEvent: {}
+[0.200213] (-) TimerEvent: {}
+[0.301458] (-) TimerEvent: {}
+[0.402287] (-) TimerEvent: {}
+[0.503273] (-) TimerEvent: {}
+[0.604404] (-) TimerEvent: {}
+[0.705804] (-) TimerEvent: {}
+[0.806900] (-) TimerEvent: {}
+[0.843238] (cpp_subscriber) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.907129] (-) TimerEvent: {}
+[1.008134] (-) TimerEvent: {}
+[1.109492] (-) TimerEvent: {}
+[1.210496] (-) TimerEvent: {}
+[1.311775] (-) TimerEvent: {}
+[1.368691] (cpp_subscriber) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.411980] (-) TimerEvent: {}
+[1.420560] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.512241] (-) TimerEvent: {}
+[1.613111] (-) TimerEvent: {}
+[1.713947] (-) TimerEvent: {}
+[1.814783] (-) TimerEvent: {}
+[1.817785] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.844662] (cpp_subscriber) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.848570] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.851283] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.870052] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.915005] (-) TimerEvent: {}
+[2.016592] (-) TimerEvent: {}
+[2.117955] (-) TimerEvent: {}
+[2.218816] (-) TimerEvent: {}
+[2.242335] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.273306] (cpp_subscriber) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.274507] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.276435] (cpp_subscriber) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.319056] (-) TimerEvent: {}
+[2.359347] (cpp_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.419192] (-) TimerEvent: {}
+[2.520122] (-) TimerEvent: {}
+[2.621428] (-) TimerEvent: {}
+[2.722316] (-) TimerEvent: {}
+[2.823261] (-) TimerEvent: {}
+[2.924184] (-) TimerEvent: {}
+[3.025044] (-) TimerEvent: {}
+[3.126318] (-) TimerEvent: {}
+[3.163902] (cpp_subscriber) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.226511] (-) TimerEvent: {}
+[3.327360] (-) TimerEvent: {}
+[3.428192] (-) TimerEvent: {}
+[3.529482] (-) TimerEvent: {}
+[3.630592] (-) TimerEvent: {}
+[3.731817] (-) TimerEvent: {}
+[3.833017] (-) TimerEvent: {}
+[3.934149] (-) TimerEvent: {}
+[4.034859] (-) TimerEvent: {}
+[4.135640] (-) TimerEvent: {}
+[4.236443] (-) TimerEvent: {}
+[4.250117] (cpp_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.336629] (-) TimerEvent: {}
+[4.437401] (-) TimerEvent: {}
+[4.538185] (-) TimerEvent: {}
+[4.639254] (-) TimerEvent: {}
+[4.740425] (-) TimerEvent: {}
+[4.782256] (cpp_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.836966] (cpp_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.840581] (-) TimerEvent: {}
+[4.912909] (cpp_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.940775] (-) TimerEvent: {}
+[5.039156] (cpp_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.040932] (-) TimerEvent: {}
+[5.141713] (-) TimerEvent: {}
+[5.186013] (cpp_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.241908] (-) TimerEvent: {}
+[5.342721] (-) TimerEvent: {}
+[5.443667] (-) TimerEvent: {}
+[5.544418] (-) TimerEvent: {}
+[5.645280] (-) TimerEvent: {}
+[5.664810] (cpp_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.694270] (cpp_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.745469] (-) TimerEvent: {}
+[5.846344] (-) TimerEvent: {}
+[5.947151] (-) TimerEvent: {}
+[6.047931] (-) TimerEvent: {}
+[6.148730] (-) TimerEvent: {}
+[6.249656] (-) TimerEvent: {}
+[6.350583] (-) TimerEvent: {}
+[6.420521] (cpp_subscriber) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.450761] (-) TimerEvent: {}
+[6.551538] (-) TimerEvent: {}
+[6.652391] (-) TimerEvent: {}
+[6.714843] (cpp_subscriber) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.752600] (-) TimerEvent: {}
+[6.853321] (-) TimerEvent: {}
+[6.954109] (-) TimerEvent: {}
+[7.054887] (-) TimerEvent: {}
+[7.155655] (-) TimerEvent: {}
+[7.201265] (cpp_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.255833] (-) TimerEvent: {}
+[7.299574] (cpp_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.356140] (-) TimerEvent: {}
+[7.458917] (-) TimerEvent: {}
+[7.559959] (-) TimerEvent: {}
+[7.660904] (-) TimerEvent: {}
+[7.699609] (cpp_subscriber) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.702247] (cpp_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.761118] (-) TimerEvent: {}
+[7.861986] (-) TimerEvent: {}
+[7.962888] (-) TimerEvent: {}
+[8.063984] (-) TimerEvent: {}
+[8.079352] (cpp_subscriber) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.084020] (cpp_subscriber) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.164237] (-) TimerEvent: {}
+[8.265119] (-) TimerEvent: {}
+[8.365933] (-) TimerEvent: {}
+[8.466795] (-) TimerEvent: {}
+[8.567709] (-) TimerEvent: {}
+[8.668548] (-) TimerEvent: {}
+[8.769415] (-) TimerEvent: {}
+[8.870307] (-) TimerEvent: {}
+[8.971320] (-) TimerEvent: {}
+[9.072197] (-) TimerEvent: {}
+[9.173139] (-) TimerEvent: {}
+[9.244933] (cpp_subscriber) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[9.245840] (cpp_subscriber) StderrLine: {'line': b"  ament_package_xml() package name 'cpp_subscriber' in '/package.xml' does\n"}
+[9.246269] (cpp_subscriber) StderrLine: {'line': b"  not match current PROJECT_NAME 'my_subscriber'.  You must call project()\n"}
+[9.246627] (cpp_subscriber) StderrLine: {'line': b'  with the same package name before.\n'}
+[9.246961] (cpp_subscriber) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.247452] (cpp_subscriber) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[9.247906] (cpp_subscriber) StderrLine: {'line': b'  CMakeLists.txt:15 (ament_package)\n'}
+[9.248374] (cpp_subscriber) StderrLine: {'line': b'\n'}
+[9.248909] (cpp_subscriber) StderrLine: {'line': b'\x1b[0m\n'}
+[9.249924] (cpp_subscriber) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.250655] (cpp_subscriber) StdoutLine: {'line': b'See also "/home/jackiepi4/test_ws/build/cpp_subscriber/CMakeFiles/CMakeOutput.log".\n'}
+[9.273463] (-) TimerEvent: {}
+[9.289861] (cpp_subscriber) CommandEnded: {'returncode': 1}
+[9.373613] (-) TimerEvent: {}
+[9.446834] (cpp_subscriber) JobEnded: {'identifier': 'cpp_subscriber', 'rc': 1}
+[9.459463] (-) EventReactorShutdown: {}

@@ -1,0 +1,6 @@
+Invoking command in '/home/jackiepi4/test_ws/build/cpp_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jackiepi4/test_ws/src/cpp_subscriber -DCMAKE_INSTALL_PREFIX=/home/jackiepi4/test_ws/install/cpp_subscriber
+Invoked command in '/home/jackiepi4/test_ws/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jackiepi4/test_ws/src/cpp_subscriber -DCMAKE_INSTALL_PREFIX=/home/jackiepi4/test_ws/install/cpp_subscriber
+Invoking command in '/home/jackiepi4/test_ws/build/cpp_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jackiepi4/test_ws/build/cpp_subscriber -- -j4 -l4
+Invoked command in '/home/jackiepi4/test_ws/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jackiepi4/test_ws/build/cpp_subscriber -- -j4 -l4
+Invoking command in '/home/jackiepi4/test_ws/build/cpp_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jackiepi4/test_ws/build/cpp_subscriber
+Invoked command in '/home/jackiepi4/test_ws/build/cpp_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jackiepi4/test_ws/build/cpp_subscriber

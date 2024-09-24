@@ -1,0 +1,441 @@
+[0.000000] (-) TimerEvent: {}
+[0.001852] (cpp_subscriber) JobQueued: {'identifier': 'cpp_subscriber', 'dependencies': OrderedDict()}
+[0.002466] (cpp_subscriber) JobStarted: {'identifier': 'cpp_subscriber'}
+[0.039536] (cpp_subscriber) JobProgress: {'identifier': 'cpp_subscriber', 'progress': 'cmake'}
+[0.043128] (cpp_subscriber) Command: {'cmd': ['/usr/bin/cmake', '/home/jackiepi4/test_ws/src/cpp_subscriber', '-DCMAKE_INSTALL_PREFIX=/home/jackiepi4/test_ws/install/cpp_subscriber'], 'cwd': '/home/jackiepi4/test_ws/build/cpp_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'jackiepi4'), ('SSH_CLIENT', '192.168.51.216 35242 22'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jackiepi4'), ('OLDPWD', '/home/jackiepi4/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8f4a2073-ab40-4e83-9d7f-a7dc34efdce2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jackiepi4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '439'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_TW.UTF-8'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca10102971.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jackiepi4/test_ws/build/cpp_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.51.216 35242 192.168.51.169 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099035] (-) TimerEvent: {}
+[0.102568] (cpp_subscriber) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199301] (-) TimerEvent: {}
+[0.300317] (-) TimerEvent: {}
+[0.401310] (-) TimerEvent: {}
+[0.502191] (-) TimerEvent: {}
+[0.602949] (-) TimerEvent: {}
+[0.683438] (cpp_subscriber) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.703159] (-) TimerEvent: {}
+[0.803894] (-) TimerEvent: {}
+[0.873228] (cpp_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.885608] (cpp_subscriber) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.904108] (-) TimerEvent: {}
+[0.914740] (cpp_subscriber) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.964643] (cpp_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004308] (-) TimerEvent: {}
+[1.028152] (cpp_subscriber) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.104505] (-) TimerEvent: {}
+[1.205371] (-) TimerEvent: {}
+[1.254725] (cpp_subscriber) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.260541] (cpp_subscriber) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.305549] (-) TimerEvent: {}
+[1.406297] (-) TimerEvent: {}
+[1.507019] (-) TimerEvent: {}
+[1.607810] (-) TimerEvent: {}
+[1.708544] (-) TimerEvent: {}
+[1.809390] (-) TimerEvent: {}
+[1.910352] (-) TimerEvent: {}
+[2.011066] (-) TimerEvent: {}
+[2.111938] (-) TimerEvent: {}
+[2.212871] (-) TimerEvent: {}
+[2.313608] (-) TimerEvent: {}
+[2.359698] (cpp_subscriber) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.413803] (-) TimerEvent: {}
+[2.514567] (-) TimerEvent: {}
+[2.615386] (-) TimerEvent: {}
+[2.716217] (-) TimerEvent: {}
+[2.817128] (-) TimerEvent: {}
+[2.918154] (-) TimerEvent: {}
+[3.018997] (-) TimerEvent: {}
+[3.119736] (-) TimerEvent: {}
+[3.220601] (-) TimerEvent: {}
+[3.321568] (-) TimerEvent: {}
+[3.418922] (cpp_subscriber) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.421740] (-) TimerEvent: {}
+[3.478843] (cpp_subscriber) StdoutLine: {'line': b'-- Generating done\n'}
+[3.486133] (cpp_subscriber) StdoutLine: {'line': b'-- Build files have been written to: /home/jackiepi4/test_ws/build/cpp_subscriber\n'}
+[3.519844] (cpp_subscriber) CommandEnded: {'returncode': 0}
+[3.530797] (-) TimerEvent: {}
+[3.532537] (cpp_subscriber) JobProgress: {'identifier': 'cpp_subscriber', 'progress': 'build'}
+[3.532921] (cpp_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jackiepi4/test_ws/build/cpp_subscriber', '--', '-j4', '-l4'], 'cwd': '/home/jackiepi4/test_ws/build/cpp_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'jackiepi4'), ('SSH_CLIENT', '192.168.51.216 35242 22'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jackiepi4'), ('OLDPWD', '/home/jackiepi4/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8f4a2073-ab40-4e83-9d7f-a7dc34efdce2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jackiepi4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '439'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_TW.UTF-8'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca10102971.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jackiepi4/test_ws/build/cpp_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.51.216 35242 192.168.51.169 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.631075] (-) TimerEvent: {}
+[3.732033] (-) TimerEvent: {}
+[3.753217] (cpp_subscriber) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[3.832260] (-) TimerEvent: {}
+[3.933222] (-) TimerEvent: {}
+[4.034056] (-) TimerEvent: {}
+[4.134803] (-) TimerEvent: {}
+[4.235604] (-) TimerEvent: {}
+[4.336397] (-) TimerEvent: {}
+[4.437255] (-) TimerEvent: {}
+[4.538019] (-) TimerEvent: {}
+[4.638784] (-) TimerEvent: {}
+[4.739645] (-) TimerEvent: {}
+[4.840584] (-) TimerEvent: {}
+[4.941424] (-) TimerEvent: {}
+[5.042207] (-) TimerEvent: {}
+[5.143022] (-) TimerEvent: {}
+[5.243904] (-) TimerEvent: {}
+[5.344814] (-) TimerEvent: {}
+[5.445664] (-) TimerEvent: {}
+[5.546557] (-) TimerEvent: {}
+[5.647410] (-) TimerEvent: {}
+[5.748242] (-) TimerEvent: {}
+[5.849045] (-) TimerEvent: {}
+[5.949898] (-) TimerEvent: {}
+[6.050762] (-) TimerEvent: {}
+[6.151635] (-) TimerEvent: {}
+[6.252756] (-) TimerEvent: {}
+[6.353895] (-) TimerEvent: {}
+[6.454780] (-) TimerEvent: {}
+[6.555714] (-) TimerEvent: {}
+[6.656608] (-) TimerEvent: {}
+[6.757563] (-) TimerEvent: {}
+[6.858529] (-) TimerEvent: {}
+[6.959388] (-) TimerEvent: {}
+[7.060285] (-) TimerEvent: {}
+[7.161165] (-) TimerEvent: {}
+[7.262080] (-) TimerEvent: {}
+[7.363008] (-) TimerEvent: {}
+[7.463904] (-) TimerEvent: {}
+[7.564857] (-) TimerEvent: {}
+[7.665729] (-) TimerEvent: {}
+[7.766595] (-) TimerEvent: {}
+[7.867500] (-) TimerEvent: {}
+[7.968361] (-) TimerEvent: {}
+[8.069320] (-) TimerEvent: {}
+[8.170201] (-) TimerEvent: {}
+[8.271616] (-) TimerEvent: {}
+[8.372561] (-) TimerEvent: {}
+[8.473480] (-) TimerEvent: {}
+[8.574679] (-) TimerEvent: {}
+[8.676519] (-) TimerEvent: {}
+[8.777442] (-) TimerEvent: {}
+[8.878294] (-) TimerEvent: {}
+[8.979108] (-) TimerEvent: {}
+[9.079999] (-) TimerEvent: {}
+[9.181053] (-) TimerEvent: {}
+[9.281913] (-) TimerEvent: {}
+[9.382892] (-) TimerEvent: {}
+[9.483761] (-) TimerEvent: {}
+[9.584751] (-) TimerEvent: {}
+[9.685575] (-) TimerEvent: {}
+[9.786414] (-) TimerEvent: {}
+[9.887371] (-) TimerEvent: {}
+[9.988232] (-) TimerEvent: {}
+[10.089139] (-) TimerEvent: {}
+[10.189966] (-) TimerEvent: {}
+[10.290779] (-) TimerEvent: {}
+[10.391668] (-) TimerEvent: {}
+[10.492569] (-) TimerEvent: {}
+[10.593722] (-) TimerEvent: {}
+[10.694597] (-) TimerEvent: {}
+[10.795461] (-) TimerEvent: {}
+[10.896362] (-) TimerEvent: {}
+[10.997344] (-) TimerEvent: {}
+[11.098211] (-) TimerEvent: {}
+[11.199100] (-) TimerEvent: {}
+[11.299945] (-) TimerEvent: {}
+[11.400892] (-) TimerEvent: {}
+[11.501740] (-) TimerEvent: {}
+[11.602625] (-) TimerEvent: {}
+[11.703482] (-) TimerEvent: {}
+[11.804360] (-) TimerEvent: {}
+[11.905323] (-) TimerEvent: {}
+[12.006215] (-) TimerEvent: {}
+[12.107071] (-) TimerEvent: {}
+[12.207962] (-) TimerEvent: {}
+[12.308855] (-) TimerEvent: {}
+[12.409831] (-) TimerEvent: {}
+[12.510702] (-) TimerEvent: {}
+[12.611528] (-) TimerEvent: {}
+[12.712449] (-) TimerEvent: {}
+[12.813412] (-) TimerEvent: {}
+[12.914295] (-) TimerEvent: {}
+[13.015120] (-) TimerEvent: {}
+[13.116022] (-) TimerEvent: {}
+[13.216976] (-) TimerEvent: {}
+[13.317942] (-) TimerEvent: {}
+[13.418827] (-) TimerEvent: {}
+[13.519737] (-) TimerEvent: {}
+[13.620612] (-) TimerEvent: {}
+[13.721521] (-) TimerEvent: {}
+[13.822373] (-) TimerEvent: {}
+[13.923252] (-) TimerEvent: {}
+[14.024143] (-) TimerEvent: {}
+[14.125102] (-) TimerEvent: {}
+[14.225962] (-) TimerEvent: {}
+[14.326847] (-) TimerEvent: {}
+[14.427823] (-) TimerEvent: {}
+[14.528701] (-) TimerEvent: {}
+[14.629580] (-) TimerEvent: {}
+[14.730559] (-) TimerEvent: {}
+[14.831606] (-) TimerEvent: {}
+[14.932639] (-) TimerEvent: {}
+[15.033558] (-) TimerEvent: {}
+[15.134402] (-) TimerEvent: {}
+[15.235238] (-) TimerEvent: {}
+[15.336109] (-) TimerEvent: {}
+[15.436995] (-) TimerEvent: {}
+[15.537896] (-) TimerEvent: {}
+[15.638724] (-) TimerEvent: {}
+[15.739625] (-) TimerEvent: {}
+[15.840487] (-) TimerEvent: {}
+[15.941354] (-) TimerEvent: {}
+[16.042206] (-) TimerEvent: {}
+[16.143056] (-) TimerEvent: {}
+[16.243945] (-) TimerEvent: {}
+[16.344858] (-) TimerEvent: {}
+[16.445739] (-) TimerEvent: {}
+[16.546635] (-) TimerEvent: {}
+[16.647495] (-) TimerEvent: {}
+[16.748422] (-) TimerEvent: {}
+[16.849356] (-) TimerEvent: {}
+[16.950258] (-) TimerEvent: {}
+[17.051169] (-) TimerEvent: {}
+[17.152016] (-) TimerEvent: {}
+[17.252889] (-) TimerEvent: {}
+[17.353744] (-) TimerEvent: {}
+[17.454617] (-) TimerEvent: {}
+[17.555576] (-) TimerEvent: {}
+[17.656432] (-) TimerEvent: {}
+[17.757358] (-) TimerEvent: {}
+[17.858195] (-) TimerEvent: {}
+[17.959051] (-) TimerEvent: {}
+[18.059945] (-) TimerEvent: {}
+[18.160865] (-) TimerEvent: {}
+[18.261835] (-) TimerEvent: {}
+[18.362839] (-) TimerEvent: {}
+[18.463726] (-) TimerEvent: {}
+[18.564636] (-) TimerEvent: {}
+[18.665590] (-) TimerEvent: {}
+[18.766522] (-) TimerEvent: {}
+[18.867369] (-) TimerEvent: {}
+[18.968238] (-) TimerEvent: {}
+[19.069164] (-) TimerEvent: {}
+[19.170235] (-) TimerEvent: {}
+[19.271090] (-) TimerEvent: {}
+[19.371956] (-) TimerEvent: {}
+[19.472869] (-) TimerEvent: {}
+[19.573756] (-) TimerEvent: {}
+[19.674612] (-) TimerEvent: {}
+[19.775479] (-) TimerEvent: {}
+[19.876356] (-) TimerEvent: {}
+[19.977303] (-) TimerEvent: {}
+[20.078179] (-) TimerEvent: {}
+[20.179163] (-) TimerEvent: {}
+[20.280113] (-) TimerEvent: {}
+[20.381066] (-) TimerEvent: {}
+[20.481935] (-) TimerEvent: {}
+[20.582808] (-) TimerEvent: {}
+[20.683688] (-) TimerEvent: {}
+[20.784618] (-) TimerEvent: {}
+[20.885513] (-) TimerEvent: {}
+[20.986350] (-) TimerEvent: {}
+[21.087281] (-) TimerEvent: {}
+[21.188112] (-) TimerEvent: {}
+[21.289039] (-) TimerEvent: {}
+[21.389910] (-) TimerEvent: {}
+[21.490753] (-) TimerEvent: {}
+[21.591614] (-) TimerEvent: {}
+[21.692505] (-) TimerEvent: {}
+[21.793416] (-) TimerEvent: {}
+[21.894154] (-) TimerEvent: {}
+[21.994900] (-) TimerEvent: {}
+[22.095675] (-) TimerEvent: {}
+[22.196476] (-) TimerEvent: {}
+[22.297259] (-) TimerEvent: {}
+[22.398120] (-) TimerEvent: {}
+[22.498992] (-) TimerEvent: {}
+[22.599921] (-) TimerEvent: {}
+[22.700893] (-) TimerEvent: {}
+[22.801759] (-) TimerEvent: {}
+[22.902731] (-) TimerEvent: {}
+[23.003920] (-) TimerEvent: {}
+[23.104864] (-) TimerEvent: {}
+[23.205812] (-) TimerEvent: {}
+[23.307164] (-) TimerEvent: {}
+[23.408224] (-) TimerEvent: {}
+[23.509907] (-) TimerEvent: {}
+[23.610944] (-) TimerEvent: {}
+[23.712043] (-) TimerEvent: {}
+[23.812911] (-) TimerEvent: {}
+[23.913817] (-) TimerEvent: {}
+[24.014680] (-) TimerEvent: {}
+[24.115529] (-) TimerEvent: {}
+[24.216404] (-) TimerEvent: {}
+[24.317300] (-) TimerEvent: {}
+[24.418253] (-) TimerEvent: {}
+[24.519111] (-) TimerEvent: {}
+[24.619969] (-) TimerEvent: {}
+[24.720871] (-) TimerEvent: {}
+[24.821763] (-) TimerEvent: {}
+[24.922580] (-) TimerEvent: {}
+[25.023425] (-) TimerEvent: {}
+[25.124283] (-) TimerEvent: {}
+[25.225239] (-) TimerEvent: {}
+[25.326104] (-) TimerEvent: {}
+[25.426957] (-) TimerEvent: {}
+[25.527794] (-) TimerEvent: {}
+[25.628681] (-) TimerEvent: {}
+[25.729595] (-) TimerEvent: {}
+[25.830376] (-) TimerEvent: {}
+[25.931199] (-) TimerEvent: {}
+[26.031972] (-) TimerEvent: {}
+[26.132885] (-) TimerEvent: {}
+[26.233703] (-) TimerEvent: {}
+[26.334553] (-) TimerEvent: {}
+[26.435406] (-) TimerEvent: {}
+[26.536240] (-) TimerEvent: {}
+[26.637101] (-) TimerEvent: {}
+[26.737882] (-) TimerEvent: {}
+[26.838691] (-) TimerEvent: {}
+[26.939539] (-) TimerEvent: {}
+[27.040366] (-) TimerEvent: {}
+[27.141326] (-) TimerEvent: {}
+[27.242175] (-) TimerEvent: {}
+[27.342988] (-) TimerEvent: {}
+[27.443822] (-) TimerEvent: {}
+[27.544655] (-) TimerEvent: {}
+[27.645566] (-) TimerEvent: {}
+[27.746362] (-) TimerEvent: {}
+[27.847215] (-) TimerEvent: {}
+[27.948126] (-) TimerEvent: {}
+[28.048916] (-) TimerEvent: {}
+[28.149730] (-) TimerEvent: {}
+[28.250669] (-) TimerEvent: {}
+[28.351510] (-) TimerEvent: {}
+[28.452399] (-) TimerEvent: {}
+[28.553266] (-) TimerEvent: {}
+[28.654119] (-) TimerEvent: {}
+[28.754956] (-) TimerEvent: {}
+[28.855828] (-) TimerEvent: {}
+[28.956775] (-) TimerEvent: {}
+[29.057559] (-) TimerEvent: {}
+[29.158405] (-) TimerEvent: {}
+[29.259244] (-) TimerEvent: {}
+[29.360126] (-) TimerEvent: {}
+[29.460993] (-) TimerEvent: {}
+[29.562053] (-) TimerEvent: {}
+[29.662925] (-) TimerEvent: {}
+[29.763857] (-) TimerEvent: {}
+[29.864681] (-) TimerEvent: {}
+[29.965522] (-) TimerEvent: {}
+[30.066355] (-) TimerEvent: {}
+[30.167142] (-) TimerEvent: {}
+[30.268043] (-) TimerEvent: {}
+[30.368935] (-) TimerEvent: {}
+[30.469780] (-) TimerEvent: {}
+[30.570626] (-) TimerEvent: {}
+[30.671561] (-) TimerEvent: {}
+[30.772422] (-) TimerEvent: {}
+[30.873271] (-) TimerEvent: {}
+[30.974102] (-) TimerEvent: {}
+[31.075010] (-) TimerEvent: {}
+[31.175850] (-) TimerEvent: {}
+[31.276751] (-) TimerEvent: {}
+[31.377565] (-) TimerEvent: {}
+[31.478414] (-) TimerEvent: {}
+[31.579306] (-) TimerEvent: {}
+[31.680181] (-) TimerEvent: {}
+[31.781067] (-) TimerEvent: {}
+[31.881935] (-) TimerEvent: {}
+[31.982724] (-) TimerEvent: {}
+[32.083616] (-) TimerEvent: {}
+[32.184464] (-) TimerEvent: {}
+[32.285351] (-) TimerEvent: {}
+[32.386146] (-) TimerEvent: {}
+[32.486991] (-) TimerEvent: {}
+[32.587814] (-) TimerEvent: {}
+[32.688621] (-) TimerEvent: {}
+[32.789486] (-) TimerEvent: {}
+[32.890344] (-) TimerEvent: {}
+[32.991127] (-) TimerEvent: {}
+[33.092162] (-) TimerEvent: {}
+[33.193015] (-) TimerEvent: {}
+[33.293849] (-) TimerEvent: {}
+[33.394711] (-) TimerEvent: {}
+[33.495505] (-) TimerEvent: {}
+[33.596382] (-) TimerEvent: {}
+[33.697235] (-) TimerEvent: {}
+[33.798070] (-) TimerEvent: {}
+[33.898988] (-) TimerEvent: {}
+[33.999860] (-) TimerEvent: {}
+[34.100810] (-) TimerEvent: {}
+[34.201637] (-) TimerEvent: {}
+[34.302464] (-) TimerEvent: {}
+[34.403500] (-) TimerEvent: {}
+[34.504531] (-) TimerEvent: {}
+[34.605835] (-) TimerEvent: {}
+[34.707079] (-) TimerEvent: {}
+[34.807980] (-) TimerEvent: {}
+[34.909163] (-) TimerEvent: {}
+[35.009958] (-) TimerEvent: {}
+[35.110781] (-) TimerEvent: {}
+[35.211629] (-) TimerEvent: {}
+[35.312462] (-) TimerEvent: {}
+[35.413350] (-) TimerEvent: {}
+[35.514156] (-) TimerEvent: {}
+[35.614956] (-) TimerEvent: {}
+[35.715761] (-) TimerEvent: {}
+[35.816601] (-) TimerEvent: {}
+[35.917464] (-) TimerEvent: {}
+[36.018304] (-) TimerEvent: {}
+[36.119106] (-) TimerEvent: {}
+[36.219946] (-) TimerEvent: {}
+[36.320876] (-) TimerEvent: {}
+[36.421702] (-) TimerEvent: {}
+[36.522733] (-) TimerEvent: {}
+[36.623768] (-) TimerEvent: {}
+[36.724647] (-) TimerEvent: {}
+[36.825699] (-) TimerEvent: {}
+[36.926752] (-) TimerEvent: {}
+[37.027671] (-) TimerEvent: {}
+[37.128576] (-) TimerEvent: {}
+[37.220689] (cpp_subscriber) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[37.228810] (-) TimerEvent: {}
+[37.329706] (-) TimerEvent: {}
+[37.430767] (-) TimerEvent: {}
+[37.531845] (-) TimerEvent: {}
+[37.633661] (-) TimerEvent: {}
+[37.734815] (-) TimerEvent: {}
+[37.836134] (-) TimerEvent: {}
+[37.937315] (-) TimerEvent: {}
+[38.038532] (-) TimerEvent: {}
+[38.139914] (-) TimerEvent: {}
+[38.241092] (-) TimerEvent: {}
+[38.342500] (-) TimerEvent: {}
+[38.443412] (-) TimerEvent: {}
+[38.544670] (-) TimerEvent: {}
+[38.645541] (-) TimerEvent: {}
+[38.746751] (-) TimerEvent: {}
+[38.847545] (-) TimerEvent: {}
+[38.948500] (-) TimerEvent: {}
+[39.049276] (-) TimerEvent: {}
+[39.150175] (-) TimerEvent: {}
+[39.168631] (cpp_subscriber) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[39.207719] (cpp_subscriber) CommandEnded: {'returncode': 0}
+[39.250360] (-) TimerEvent: {}
+[39.338185] (cpp_subscriber) JobProgress: {'identifier': 'cpp_subscriber', 'progress': 'install'}
+[39.350574] (-) TimerEvent: {}
+[39.376320] (cpp_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jackiepi4/test_ws/build/cpp_subscriber'], 'cwd': '/home/jackiepi4/test_ws/build/cpp_subscriber', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_TW:en'), ('USER', 'jackiepi4'), ('SSH_CLIENT', '192.168.51.216 35242 22'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jackiepi4'), ('OLDPWD', '/home/jackiepi4/test_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8f4a2073-ab40-4e83-9d7f-a7dc34efdce2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jackiepi4'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '439'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jackiepi4/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_TW.UTF-8'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ca10102971.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jackiepi4/test_ws/build/cpp_subscriber'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.51.216 35242 192.168.51.169 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[39.405923] (cpp_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.406704] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/lib/cpp_subscriber/subscriber\n'}
+[39.432519] (cpp_subscriber) StdoutLine: {'line': b'-- Set runtime path of "/home/jackiepi4/test_ws/install/cpp_subscriber/lib/cpp_subscriber/subscriber" to ""\n'}
+[39.433477] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/ament_index/resource_index/package_run_dependencies/cpp_subscriber\n'}
+[39.435173] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/ament_index/resource_index/parent_prefix_path/cpp_subscriber\n'}
+[39.436794] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/ament_prefix_path.sh\n'}
+[39.437885] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/ament_prefix_path.dsv\n'}
+[39.439048] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/path.sh\n'}
+[39.440166] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/environment/path.dsv\n'}
+[39.441298] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.bash\n'}
+[39.442405] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.sh\n'}
+[39.443555] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.zsh\n'}
+[39.444624] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/local_setup.dsv\n'}
+[39.445863] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/package.dsv\n'}
+[39.447298] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/ament_index/resource_index/packages/cpp_subscriber\n'}
+[39.448701] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/cmake/cpp_subscriberConfig.cmake\n'}
+[39.449769] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/cmake/cpp_subscriberConfig-version.cmake\n'}
+[39.450672] (-) TimerEvent: {}
+[39.451221] (cpp_subscriber) StdoutLine: {'line': b'-- Installing: /home/jackiepi4/test_ws/install/cpp_subscriber/share/cpp_subscriber/package.xml\n'}
+[39.457260] (cpp_subscriber) CommandEnded: {'returncode': 0}
+[39.551952] (-) TimerEvent: {}
+[39.653429] (-) TimerEvent: {}
+[39.745596] (cpp_subscriber) JobEnded: {'identifier': 'cpp_subscriber', 'rc': 0}
+[39.749708] (-) EventReactorShutdown: {}
